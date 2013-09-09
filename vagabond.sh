@@ -1,6 +1,5 @@
 apt-get install -y ruby1.9.3
 apt-get install -y make
-apt-get install -y git
 export VAGA_DIR="${HOME}/work/vagabond" && mkdir -p $VAGA_DIR && cd $VAGA_DIR
 git clone https://github.com/omgbebebe/vagabond.git
 cd vagabond

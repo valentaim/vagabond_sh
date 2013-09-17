@@ -9,7 +9,6 @@ gem install vagabond-0.2.8.gem > /dev/null 2>&1
 gem install vagabond-0.2.8.gem > /dev/null 2>&1
 cd ../
 vagabond init --debug
-sed -i '/.*enabled/s/false/true/' Vagabondfile
 vagabond server create --debug
 vagabond server status
 knife cookbook create test -c .chef/knife.rb
